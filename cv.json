@@ -2,7 +2,7 @@
   "basics": {
     "name": "Camilo Andrés Giraldo Gonzalez",
     "label": "I am a highly skilled professional committed to excellence in job performance.",
-    "image": "",
+    "image": "./public/01.jpg",
     "email": "candresggiraldo@gmail.com",
     "phone": "(+57) 3057046377",
     "url": "null",
@@ -12,7 +12,7 @@
     "location": {
       "address": "",
       "postalCode": "150002",
-      "city": "Tunja.",
+      "city": "Tunja",
       "countryCode": "CO",
       "region": "Colombia",
       "celphone":"3057046377"

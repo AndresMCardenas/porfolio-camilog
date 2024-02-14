@@ -1,0 +1,20 @@
+---
+import Section from '../../components/Sections.astro'
+import { basics } from '../../../cv.json'
+---
+<Section title="About" description="This is the about section">
+  
+  <p>{basics.summary1}</p>
+  <p>{basics.summary2}</p>
+  <p>{basics.summary3}</p>
+
+</Section>
+
+<style>
+  p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+</style>

@@ -1,0 +1,141 @@
+---
+import {basics} from '../../../cv.json'
+import Section from "../Sections.astro";
+import Mail from "../../../public/Mail.astro";
+import Phone from "../../../public/Phone.astro";
+import WorldMap from "../../../public/WorldMap.astro";
+import LinkedIn from "../../../public/LinkedIn.astro";
+
+const {name, label,image,location,profiles,phone,email } = basics
+const {city, countryCode, region} = location
+
+
+---
+<Section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+      <span >
+        <div>
+          <WorldMap />
+        </div>
+        {city}, {region}, {countryCode}
+      </span>
+      <footer >
+        {
+          email && (
+            <a 
+              href={`mailto:${email}`} 
+              title={`Enviar correo electronico a${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <Mail />
+            {email}
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a 
+              href={`tel:${phone}`} 
+              title={`Llamar a ${name} al telefono ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <Phone />
+            {phone}
+            </a>
+          )
+        }
+        {
+          profiles && (
+            <a 
+              href={profiles[0].url} 
+              title={`Visitar el perfil de ${name} en ${profiles[0].network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <LinkedIn />
+            {profiles[0].network}
+
+            </a>
+          )
+        }
+        
+
+
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>  
+
+  </div>
+</Section>
+
+<style>
+ .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 35px;
+  }
+
+  h1 {
+    font-size: 2rem;    
+  }
+
+  h2 {
+    font-weight: 500;
+    text-wrap: balance;
+    font-size: 1.1rem;
+    color: #444;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  span div {
+    color: #444;
+    width: 24px;
+    height: 20px;
+  }
+
+  footer {
+    margin-top: 0.5rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;    
+  }
+  footer a {
+    color: #444;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+    gap: 0.5rem;
+    transition: all .3s ease;
+  }
+  footer a:hover {
+    color: black;
+    font-size: larger;
+  }
+
+</style>
