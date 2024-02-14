@@ -1,0 +1,75 @@
+<footer>
+  Press <kbd> Ctrl </kbd> + <kbd> K </kbd> to open the <command>command palette</command> or <kbd> Ctrl </kbd> + <kbd> P </kbd> to print this page.
+</footer>
+
+<ninja-keys> </ninja-keys>
+
+<script>
+  import 'ninja-keys';
+  const ninjaKeys = document.querySelector('ninja-keys');
+
+  if (ninjaKeys !== null) {
+    ninjaKeys.data =[
+      {
+      id: 'print',
+      title: 'Print CV',
+      hotkey: 'ctrl+p',
+      icon: `<svg style="margin-right: 8px" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" /><path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" /><path d="M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" /></svg>`,
+      section: 'Accions',
+      handler: () => {
+        window.print();
+      },
+    },
+
+    ]
+  }
+
+</script>
+
+<style>
+	@media print {
+		ninja-keys {
+			display: none !important;
+		}
+
+    footer {
+      display: none !important;
+    }
+	}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  footer {
+    background: #fdfdfd;
+    border-top: 2px solid #eee;
+    position: fixed;
+    bottom: 0px;
+    padding-block: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+
+    view-timeline-name: --reveal;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --reveal;
+    animation-range: entry 100% cover 10%;
+
+  }
+
+  kbd {
+    background: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+</style>
