@@ -30,8 +30,8 @@
       "name": "IGT solutions",
       "position": "Priceline - Escalations team",
       "url": "",
-      "startDate": "2023-08-06",
-      "endDate": "2024-02-29",
+      "startDate": "2023-08",
+      "endDate": "2024-02",
       "summary": "I was responsible for providing support to the Priceline team, handling escalated cases and ensuring customer satisfaction. I also provided training and support to new team members, and collaborated with the Quality Assurance team to ensure compliance with company standards and procedures.",
       "highlights": [
         "Started the company"
@@ -41,8 +41,8 @@
       "name": "Contact Point 360",
       "position": "American water resources - claims department",
       "url": "",
-      "startDate": "2022-10-20",
-      "endDate": "2023-08-01",
+      "startDate": "2022-10",
+      "endDate": "2023-08",
       "summary": "I was in charge of managing claims and providing assistance to clients, ensuring that their issues were resolved in a timely and satisfactory manner to guarantee their full satisfaction. Additionally, I worked closely to continuously improve our services and maintain high standards of customer care.",
       "highlights": [
         "Started the company"
@@ -51,8 +51,8 @@
     {
       "name": "Concentrix",
       "position": "AT&T - customer care representative",
-      "startDate": "2021-11-04",
-      "endDate": "2022-07-28",
+      "startDate": "2021-11",
+      "endDate": "2022-07",
       "summary": "I was in charge of managing claims and providing assistance to clients, ensuring that their issues were resolved in a timely and satisfactory manner to guarantee their full satisfaction.",
       "highlights": [
         "Started the company"
@@ -62,12 +62,12 @@
   "education": [
     {
       "institution": "SENA",
-      "title": "formación laboral en sistemas y programación básica",
+      "title": "Work experience in systems and basic programming",
       "url": "",
       "area": "Superior vocacional",
       "studyType": "Superior vocacional",
-      "startDate": "2017-08-01",
-      "endDate": "2022-08-01",
+      "startDate": "2017",
+      "endDate": "2022",
       "score": "4.0",
       "courses": [
         ""
@@ -75,12 +75,12 @@
     },
     {
       "institution": "I.E.D Leon De Greiff",
-      "title": "Bachillerato academico",
+      "title": "Academic high school",
       "url": "",
       "area": "Bachillerato",
       "studyType": "Academico",
-      "startDate": "2000-01-01",
-      "endDate": "2006-12-01",
+      "startDate": "2000",
+      "endDate": "2006",
       "score": "4.0",
       "courses": [
         "Bachillerato academico"

@@ -1,6 +1,70 @@
 ---
 import Section from "../Sections.astro";
+import { work } from '../../../cv.json';
+
 ---
 
-<Section title="Expirience" description="This is the expirience section" />
-```
+<Section title="Expirience" description="This is the expirience section">
+  <ul>
+    {work.map(({name , position, endDate, startDate, summary}) => (
+      <li>
+        <article>
+          <header>
+            <div>
+              <h3>{name}</h3>
+              <h4>{position}</h4>
+            </div>            
+
+            <time>
+              {startDate} - {endDate}
+            </time>
+          </header>
+
+          <footer>
+            <p>{summary}</p>
+          </footer>
+        </article>
+      </li>
+    ))}
+  </ul>
+  
+</Section>
+
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 700;
+  }
+
+  h4{
+    font-size: 1.1rem;
+    color: #222;
+    font-weight: 400;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+</style>
