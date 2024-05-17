@@ -6,7 +6,7 @@ import Phone from "../../../public/Phone.astro";
 import WorldMap from "../../../public/WorldMap.astro";
 import LinkedIn from "../../../public/LinkedIn.astro";
 
-const {name, label,image,location,profiles,phone,email } = basics
+const {name, label,image,location,profiles,phone,email,telegram } = basics
 const {city, countryCode, region} = location
 
 
@@ -41,6 +41,19 @@ const {city, countryCode, region} = location
             <a 
               href={`tel:${phone}`} 
               title={`Llamar a ${name} al telefono ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <Phone />
+            {phone}
+            </a>
+          )
+        }
+         {
+          telegram && (
+            <a 
+              href={`tel:${phone}`} 
+              title={`escribeme a ${telegram}`}
               target="_blank"
               rel="noopener noreferrer"
             >
