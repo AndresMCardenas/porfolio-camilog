@@ -5,6 +5,7 @@ import Mail from "../../../public/Mail.astro";
 import Phone from "../../../public/Phone.astro";
 import WorldMap from "../../../public/WorldMap.astro";
 import LinkedIn from "../../../public/LinkedIn.astro";
+import Telegram from "../../../public/Telegram.astro";
 
 const {name, label,image,location,profiles,phone,email,telegram } = basics
 const {city, countryCode, region} = location
@@ -57,7 +58,7 @@ const {city, countryCode, region} = location
               target="_blank"
               rel="noopener noreferrer"
             >
-            <Phone />
+            <Telegram />
             {telegram}
             </a>
           )
