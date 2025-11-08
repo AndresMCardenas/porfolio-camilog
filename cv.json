@@ -7,9 +7,9 @@
     "phone": "(+57) 3057046377",
     "telegram": "@candresggiraldo",
     "url": "null",
-    "summary1": "My ability to establish strong interpersonal relationships is reflected in my capacity to provide exceptional customer service. I am distinguished by my integrity, responsibility, and punctuality, qualities that ensure reliable and consistent performance in any work environment.",
-    "summary2":"I possess an analytical and proactive mindset, with a natural ability to lead teams and solve problems efficiently. My commitment to the highest ethical and moral standards guides me in every task I undertake, ensuring professional conduct and respectful treatment of colleagues and clients alike.",
-    "summary3":"I am constantly seeking opportunities to expand my knowledge and enhance my skills. My focus on continuous learning enables me to quickly adapt to changes and stay up-to-date with the latest trends and technologies in the BPO and Call Center field.",
+    "summary1": "I am a dedicated customer service specialist with 3 years of experience with USA companies.",
+    "summary2":"I thrive in dynamic environments and am skilled in resolving diverse issues, executing successful cross-sales, and ensuring exceptional customer experiences.",
+    "summary3":"I excel in anticipating needs and fostering long-term relationships.",
     "location": {
       "address": "",
       "postalCode": "150002",
@@ -22,11 +22,22 @@
       {
         "network": "LinkedIn",
         "username": "",
-        "url": "/"
+        "url": "https://www.linkedin.com/in/camilo-andres-guerrero-giraldo-a88677285/"
       }
     ]
   },
   "work": [
+    {
+      "name": "Customer Experience Specialist",
+      "position": "Ellucian · Full-time",
+      "startDate": "2024-07",
+      "endDate": "Today",
+      "summary": "Delivered technical and functional support to a diverse user base by leveraging enterprise platforms like ServiceNow, Okta, and Salesforce. My role focused on managing the entire ticket lifecycle in ServiceNow, from initial diagnosis to resolution. Proactively identified recurring issues and contributed to knowledge base documentation to improve user satisfaction. As a collaborative team player, I also actively contributed to cross-functional projects, providing support to QA, Tier 1 Human Resources teams to enhance overall operational success.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+
     {
       "name": "IGT solutions",
       "position": "Priceline - Escalations team",
@@ -48,17 +59,7 @@
       "highlights": [
         "Started the company"
       ]
-    },
-    {
-      "name": "Concentrix",
-      "position": "AT&T - customer care representative",
-      "startDate": "2021-11",
-      "endDate": "2022-07",
-      "summary": "I was in charge of managing claims and providing assistance to clients, ensuring that their issues were resolved in a timely and satisfactory manner to guarantee their full satisfaction.",
-      "highlights": [
-        "Started the company"
-      ]
-    }
+    }    
   ],
   "education": [
     {
