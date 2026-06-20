@@ -7,9 +7,9 @@
     "phone": "(+57) 3057046377",
     "telegram": "@candresggiraldo",
     "url": "null",
-    "summary1": "I am a dedicated customer service specialist with 3 years of experience with USA companies.",
-    "summary2":"I thrive in dynamic environments and am skilled in resolving diverse issues, executing successful cross-sales, and ensuring exceptional customer experiences.",
-    "summary3":"I excel in anticipating needs and fostering long-term relationships.",
+    "summary1": "Customer-focused professional with 4+ years of experience supporting U.S.-based clients across SaaS, Higher Education, Travel, and Utility industries. Skilled in technical troubleshooting, customer support, ticket lifecycle management, escalations, process improvement, and cross-functional collaboration.",
+    "summary2":"Experienced in managing high-volume support environments while maintaining exceptional customer satisfaction. Proficient in ServiceNow, Salesforce, Okta, CRM platforms,knowledge base management, root cause analysis, and stakeholder communication. Recognized for problem-solving abilities, adaptability, and commitment to delivering outstanding customer experiences.",
+    "summary3":"Seeking opportunities in Customer Success, Technical Support, Help Desk,Implementation, Operations, or Project Coordination roles.",
     "location": {
       "address": "",
       "postalCode": "150002",
@@ -28,11 +28,11 @@
   },
   "work": [
     {
-      "name": "Customer Experience Specialist",
+      "name": "Associate Product Support Analyst",
       "position": "Ellucian · Full-time",
       "startDate": "2024-07",
       "endDate": "2026-06",
-      "summary": "Delivered technical and functional support to a diverse user base by leveraging enterprise platforms like ServiceNow, Okta, and Salesforce. My role focused on managing the entire ticket lifecycle in ServiceNow, from initial diagnosis to resolution. Proactively identified recurring issues and contributed to knowledge base documentation to improve user satisfaction. As a collaborative team player, I also actively contributed to cross-functional projects, providing support to QA, Tier 1 Human Resources teams to enhance overall operational success.",
+      "summary": "Delivered technical and functional support for higher education institutions sing ServiceNow,Salesforce, and Okta. Managed the complete ticket lifecycle from intake through resolution while meeting service level expectations. Investigated customer-reported issues and performed root cause analysis to improve user experience. Created and maintained knowledge base documentation to support users and internal teams Collaborated with QA, HR, and cross-functional departments to improve operational efficiency. Provided troubleshooting support for account access, platform functionality, and customer inquiries.",
       "highlights": [
         "Started the company"
       ]
@@ -44,7 +44,7 @@
       "url": "",
       "startDate": "2023-08",
       "endDate": "2024-02",
-      "summary": "I was responsible for providing support to the Priceline team, handling escalated cases and ensuring customer satisfaction. I also provided training and support to new team members, and collaborated with the Quality Assurance team to ensure compliance with company standards and procedures.",
+      "summary": "Managed complex and escalated customer cases, ensuring timely and effective resolutions. Served as a point of contact for high-priority customer concerns. Assisted in onboarding and training new team members. Collaborated with Quality Assurance teams to maintain compliance and service standards. Improved customer satisfaction through proactive communication and problem resolution.",
       "highlights": [
         "Started the company"
       ]
@@ -55,7 +55,7 @@
       "url": "",
       "startDate": "2022-10",
       "endDate": "2023-08",
-      "summary": "I was in charge of managing claims and providing assistance to clients, ensuring that their issues were resolved in a timely and satisfactory manner to guarantee their full satisfaction. Additionally, I worked closely to continuously improve our services and maintain high standards of customer care.",
+      "summary": "Processed and managed customer claims while ensuring compliance with company procedures. Assisted customers with claim inquiries and issue resolution. Maintained accurate documentation and case records. Worked closely with internal teams to improve service quality and customer satisfaction. Consistently delivered exceptional customer support in a fast-paced environment.",
       "highlights": [
         "Started the company"
       ]
@@ -91,31 +91,38 @@
   ],
   "skills": [
     {
-      "name": "Excellent Communication"
+      "name": "ServiceNow"
     },
     {
-      "name": "Problem-Solving Skills"
+      "name": "Salesforce"
     },
     {
-      "name": "Microsoft Excel"
+      "name": "Okta"
     },
     {
-      "name": "Customer Focus"
+      "name": "Microsoft Office Suite"
     },
     {
-      "name": "Teamwork"
+      "name": "Google Workspace"
     },
     {
-      "name": "Flexibility"
+      "name": "CRM Systems"
     },
     {
-      "name": "Time Management"
+      "name": "Ticketing Systems"
+    },
+    {
+      "name": "Knowledge Base Management"
     }
   ],
   "languages": [
     {
+      "language": "Spanish",
+      "fluency": "Native Speaker (C2)"  
+    },
+    {
       "language": "English",
-      "fluency": "B1 - Intermediate"
+      "fluency": "Professional Working Proficiency (C1)"
     }
   ],
   "interests": [
